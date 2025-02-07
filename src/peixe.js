@@ -16,10 +16,10 @@ var orca, oceano, logoInteli, planta;
 
 function preload() {
     // Carregamento das imagens
-    this.load.image('orca', 'assets/orca.png');
-    this.load.image('inteli', 'assets/logo-inteli_azul.png');
-    this.load.image('oceano', 'assets/bg_azul-escuro.png');
-    this.load.image('planta', 'assets/planta.png');
+    this.load.image('orca', '../assets/orca.png');
+    this.load.image('inteli', '../assets/logo-inteli_azul.png');
+    this.load.image('oceano', '../assets/bg_azul-escuro.png');
+    this.load.image('planta', '../assets/planta.png');
 }
 
 function create() {
