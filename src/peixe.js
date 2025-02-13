@@ -1,7 +1,8 @@
 var config = {
     type: Phaser.AUTO,
     scale: {
-        mode: Phaser.Scale.RESIZE, // Redimensiona automaticamente as imagens
+        // Redimensiona automaticamente as imagens
+        mode: Phaser.Scale.RESIZE,
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
     scene: {
